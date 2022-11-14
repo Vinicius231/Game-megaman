@@ -12,6 +12,14 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, rgb(0, 89, 255),rgba(0, 89, 255, 0.274));
 }
+.nuvem {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    margin-top: 20px;
+    left: 100%;
+    animation: nuvemAnime 40s linear infinite;
+}
 .megaman {
     width: 50px;
     height: 50px;
@@ -24,6 +32,14 @@ body {
     position: absolute;
     bottom: -10px;
     left: 0px;
+}
+@keyframes nuvemAnime {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -70px;
+    }
 }
 @keyframes arvoreAnime {
     0% {
@@ -50,6 +66,13 @@ body {
         border-bottom: 5px solid brown;
         width: 650px;
         height: 400px;
+    }
+    .nuvem {
+        width: 140px;
+        height: 80px;
+        position: absolute;
+        margin-top: 20px;
+        left: 100%;
     }
     .megaman {
         width: 100px;

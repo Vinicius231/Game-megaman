@@ -40,7 +40,8 @@ var loop = setInterval(function verificar() {
 
         //Para abrir a página de derrota
         setTimeout(()=>{
-            window.location='derrota.html'
+            $('.fundoDerrota').css('display','block')
+            $('.container').css('display','none')
         },1000)
     } else if(arvorePosi <= 45 && megaposi <= 70 && arvorePosi > 0 && largura >= 700) {
         // Remover animação
@@ -60,7 +61,8 @@ var loop = setInterval(function verificar() {
 
         //Para abrir a página de derrota
         setTimeout(()=>{
-            window.location='derrota.html'
+            $('.fundoDerrota').css('display','block')
+            $('.container').css('display','none')
         },1000)
     }
 
