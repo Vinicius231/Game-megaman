@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.fundoDerrota{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+.telaDerrota {
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 100px;
+    border-radius: 15px;
+    border: 5px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+.textDerrota {
+    font: bolder 30pt Arial;
+    font-family: 'Roboto', sans-serif;
+}
+.btnJogarNovamente {
+    background: whitesmoke;
+    width: 200px;
+    height: 60px;
+    margin-top: 130px;
+    font: bolder 17pt Arial;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btnJogarNovamente:hover {
+    background: rgb(0, 253, 21);
+    box-shadow: 5px 5px 5px green;
+    color: white;
+    width: 230px;
+    height: 70px;
+    transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+    .telaDerrota {
+        width: 200px;
+        height: 200px;
+        padding: 80px;
+    }
+    .textDerrota {
+    font: bolder 22pt Arial;
+    font-family: 'Roboto', sans-serif;
+    }
+    .btnJogarNovamente {
+        margin-top: 80px;
+        font: bolder 13pt Arial;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px black;
+    }
+}
